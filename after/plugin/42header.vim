@@ -6,7 +6,7 @@
 "    By: pbondoer <pbondoer@student.42.fr>          +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2015/12/06 19:39:01 by pbondoer          #+#    #+#              "
-"    Updated: 2020/05/21 12:31:21 by charles          ###   ########.fr        "
+"    Updated: 2020/06/07 14:02:22 by charles          ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -51,7 +51,7 @@ function! s:filetype()
 
 	let s:start	= '#'
 	let s:end	= '#'
-	let s:fill	= '*'
+	let s:fill	= '#'
 
 	for type in keys(s:types)
 		if l:f =~ type
